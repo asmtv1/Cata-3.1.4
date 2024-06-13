@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+    .buttons-user {
+      display: flex;
+      margin-left: auto;
+      gap: 16px;
+    }
+  
+    .header__service-menu {
+      margin-left: 20px;
+    }
+  
+    .header__button {
+      margin-right: 20px;
+      position: relative;
+    }
+  
+    .button-menu--icon--burger::after {
+      content: "";
+      display: block;
+      height: 32px;
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      translate: -50% -50%;
+      width: 2px;
+      background: #eaeaea;
+    }
+  
+    .main-menu__list {
+      margin-top: 32px;
+    }
+  
+    .about__text {
+      margin: 0;
+      height: 160px;
+      line-height: 20px;
+    }
+  
+    .about {
+      display: flex;
+      gap: 48px;
+    }
+  
+    .about__image {
+      min-width: 50%;
+      margin-top: 0;
+      height: auto;
+    }
+  
+    .main__about {
+      margin-top: 32px;
+      padding-inline: 24px;
+    }
+  
+    
+  
+  }
