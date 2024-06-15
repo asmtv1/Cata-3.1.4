@@ -96,8 +96,8 @@
 }
 
 .sidebar-footer__language {
-  margin-top: 40px;
   display: flex;
+  margin-top: 40px;
   gap: 7px;
 }
 
