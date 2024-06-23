@@ -1,0 +1,129 @@
+body {
+  background-color: #f8f8f8;
+}
+
+#non_swiper
+{
+    display: none;
+}
+.header__inner {
+  border-top: 1px solid #d9fff5;
+
+  background: linear-gradient(270deg, #ffffff 0%, #f8f8f8 98.61%);
+  display: block;
+  height: 80px;
+}
+
+.h1 {
+  font-family: "TT Lakes", sans-serif;
+  font-size: 16px;
+  color: #7e7e82;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.header__title {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.main-brands__list {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+.main__shadow
+{   display: block;
+    content: "";
+    position: absolute;
+  
+    right: 0;
+    top: 87px;
+    width: 24px;
+    height: 81px;
+    z-index: 1;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+
+}
+
+.main-brands__list--margin {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.main-brands__item {
+  display: block;
+  width: 240px;
+  height: 72px;
+  background-color: #ffffff !important;
+  border: 1px solid #eaeaea;
+  flex-shrink: 0;
+}
+
+.main-brands__link {
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #ff3e79;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  background: url(../img/dropdown.svg) center no-repeat;
+}
+
+.main-brands__link--transform {
+  transform: translate(184px, 16px);
+}
+
+.main-brands__item--lenovo-icon {
+  background: url(../img/lenovo.png) 16px center no-repeat;
+}
+.main-brands__item--samsung-icon {
+  background: url(../img/samsung.png) 16px center no-repeat;
+}
+
+.main-brands__item--apple-icon {
+  background: url(../img/apple.png) 16px center no-repeat;
+}
+
+.main-brands__item--viewsonic-icon {
+  background: url(../img/viewsonic.png) 16px center no-repeat;
+}
+
+.main-brands__item--bosch-icon {
+  background: url(../img/bosch.png) 16px center no-repeat;
+}
+
+.main-brands__item--hp-icon {
+  background: url(../img/hp.png) 16px center no-repeat;
+}
+
+.main-brands__item--acer-icon {
+  background: url(../img/acer.png) 16px center no-repeat;
+}
+
+.main-brands__item--sony-icon {
+  background: url(../img/sony.png) 16px center no-repeat;
+}
+.swiper-slide {
+  width: 240px !important;
+  height: 72px;
+}
+
+.swiper-pagination#swiper-2 {
+  top: 184px;
+  left: -3px;
+}
+
+#swiper-2 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #dddddd;
+
+  margin-left: 8px;
+  width: 12px;
+  height: 12px;
+}
+#swiper-2 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #b5b6bc;
+}

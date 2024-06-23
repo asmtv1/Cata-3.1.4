@@ -1,0 +1,64 @@
+#swiper-1,
+#swiper-2 {
+  display: none;
+}
+
+#non_swiper {
+  display: block;
+}
+
+.header__inner {
+  height: 56px;
+}
+.main-brands__list {
+  flex-wrap: wrap;
+  margin-left: 24px;
+  max-width: 1120px;
+  row-gap: 16px;
+  column-gap: 32px;
+}
+
+.main-brands__item {
+  width: 240px;
+ 
+}
+
+.main-brands__link--transform {
+  transform: translate(184px, 16px);
+}
+
+#btn {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 9px;
+  margin-top: 24px;
+  height: 24px;
+  background-color: #f8f8f8;
+  font-family: "TT Lakes", sans-serif;
+}
+
+.main-brands__show {
+  margin-left: 24px;
+  margin-top: 24px;
+  vertical-align: auto;
+  display: inline-block;
+}
+
+.main-brands__hide {
+  margin-left: 24px;
+  margin-top: 24px;
+  vertical-align: auto;
+  display: none;
+ 
+  
+}
+
+
+#more
+{
+    align-content: flex-start;
+    height: 170px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
