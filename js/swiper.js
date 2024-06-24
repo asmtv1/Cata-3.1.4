@@ -3,6 +3,8 @@ new Swiper("#swiper-1", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  slidesPerView: "auto",
+  spaceBetween: 16,
 });
 
 function readMore() {
